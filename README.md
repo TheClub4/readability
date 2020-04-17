@@ -13,7 +13,7 @@ Well, in many cases, a human expert might read a book and make a decision on the
 
 So what sorts of traits are characteristic of higher reading levels? Well, longer words probably correlate with higher reading levels. Likewise, longer sentences probably correlate with higher reading levels, too. A number of “readability tests” have been developed over the years, to give a formulaic process for computing the reading level of a text.
 
-One such readability test is the Coleman-Liau index. The Coleman-Liau index of a text is designed to output what (U.S.) grade level is needed to understand the text. The formula is:
+One such readability test is the **Coleman-Liau index**. The Coleman-Liau index of a text is designed to output what (U.S.) grade level is needed to understand the text. The formula is:
 ```
 index = 0.0588 * L - 0.296 * S - 15.8
 ```
@@ -33,7 +33,7 @@ $ ./readability
 Text: Harry Potter was a highly unusual boy in many ways. For one thing, he hated the summer holidays more than any other time of year. For another, he really wanted to do his homework, but was forced to do it in secret, in the dead of the night. And he also happened to be a wizard.
 Grade 5
 ```
-This text has 214 letters, 4 sentences, and 56 words. That comes out to about 382.14 letters per 100 words, and 7.14 sentences per 100 words. Plugged into the _Coleman-Liau_** formula, we get a fifth grade reading level.
+This text has 214 letters, 4 sentences, and 56 words. That comes out to about 382.14 letters per 100 words, and 7.14 sentences per 100 words. Plugged into the Coleman-Liau formula, we get a fifth grade reading level.
 
 As the average number of letters and words per sentence increases, the Coleman-Liau index gives the text a higher reading level. If you were to take this paragraph, for instance, which has longer words and sentences than either of the prior two examples, the formula would give the text an eleventh grade reading level.
 ```
